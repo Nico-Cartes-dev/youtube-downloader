@@ -1,4 +1,3 @@
-
 # YouTube Downloader
 YouTube downloader built with Python.
 
@@ -70,3 +69,6 @@ On Ubuntu or Debian-based Linux systems, you can install FFmpeg directly from th
 
 ## After Installation
 Once FFmpeg is correctly installed on your system, the yt-dlp script will be able to automatically use it to convert downloaded audio files to MP3 format. If there are no errors when verifying the installation, your program should work smoothly when downloading and converting audio.
+
+## Note
+If you encounter any bugs or errors, I am open to comments. An update will be made to include a graphical user interface for this tool.
