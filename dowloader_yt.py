@@ -3,7 +3,7 @@ import os
 
 video_url = input("Enter the video URL: ")
 option = input("Choose video (1) or audio (2): ").strip()
-download_path = r"L:\download test py"
+# download_path = r"choose your route"  
 os.makedirs(download_path, exist_ok=True)
 
 def audio_quality(audio_format, ydl_opts):
