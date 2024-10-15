@@ -49,7 +49,7 @@ def audio_quality(audio_format, ydl_opts):
 
 try:
     ydl_opts = {
-        'ffmpeg_location': r'C:\ffmpeg\bin',
+        #'ffmpeg_location': r'C:\ffmpeg\bin', change to your location
         'outtmpl': os.path.join(download_path, '%(title)s.%(ext)s'),  
     }
 
