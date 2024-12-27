@@ -57,7 +57,7 @@ try:
     video_title = get_name(video_url)
     print(f'Video title: {video_title}')
     ydl_opts = {
-        'ffmpeg_location': r'C:\ffmpeg\bin',
+        #'ffmpeg_location': r'C:\ffmpeg\bin', change to your location
         'outtmpl': os.path.join(download_path, '%(title)s.%(ext)s'),  
     }
 
